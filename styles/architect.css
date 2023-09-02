@@ -123,7 +123,21 @@ margin: 24px 0 32px;
  }
 
  /* featurse styles */
-
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features-title{
+    color:  #131313;
+font-size: 3rem;
+font-weight: 700;
+}
+.features-description{
+    color:  #727272;
+font-size: 16px;
+font-weight: 400;
+}
 
 
 
