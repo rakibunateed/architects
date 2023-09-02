@@ -1,0 +1,128 @@
+/* work san font */
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+
+/* header related styles */
+
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color:#131313;
+font-size: 45px;
+font-weight: 700;
+}
+nav > ul{
+    display: flex;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 300; 
+
+}
+nav li a{
+    color: #424242;
+text-decoration: none;
+
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+.banner-title{
+    color: #131313;
+text-align: center;
+font-size: 4rem;
+font-weight: 700;
+margin: 116px auto 30px;
+}
+.banner-description{
+    color: #727272;
+text-align: center;
+font-size: 1rem;
+font-weight: 300;
+margin-bottom: 50px;
+}
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+    color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 20px 24px;
+border: none;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* responsive media queries */
+
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-bottom: 30px;
+    }
+    .banner-title{
+        margin: 50px 20px 20px;
+    }
+    .banner-description{
+        margin-bottom: 20px;
+    }
+    .banner-content{
+        margin-bottom: 30px;
+    }
+}
+
+/* tablet or medium devices */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
+    .nav-title{
+        margin-bottom: 30px;
+    }
+    .banner-title{
+        margin: 50px 20px 20px;
+    }
+    .banner-content{
+        margin-bottom: 30px;
+    }
+    
+}
+    
