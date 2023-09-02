@@ -122,6 +122,61 @@ font-weight: 400;
 margin: 24px 0 32px;
  }
 
+ /* featurse styles */
+
+
+
+
+ /* facts styles */
+ .facts-title{
+    color: #131313;
+font-size: 3rem;
+font-weight: 700;
+margin: 130px 0 24px;
+ }
+ .facts-description{
+    color:  #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 100px;
+ }
+ .facts-card-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align:  center;
+padding:40px 35px 40px  ;
+ }
+ .card-stats{
+    color:  #424242;
+font-size: 3rem;
+font-weight: 600;
+ }
+.card-title{
+    color:  #727272;
+font-size: 1.25rem;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* responsive media queries */
 
