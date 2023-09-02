@@ -154,6 +154,7 @@ padding:40px 35px 40px  ;
     color:  #424242;
 font-size: 3rem;
 font-weight: 600;
+margin: 10px 0 10px;
  }
 .card-title{
     color:  #727272;
@@ -187,7 +188,8 @@ font-weight: 600;
         padding: 20px;
     }
     nav ,
-    .teams-container
+    .teams-container,
+    .facts-card-container
     {
         flex-direction: column;
     }
@@ -197,9 +199,21 @@ font-weight: 600;
     .teams-img-container{
         margin-bottom: 25px;
     } 
-     .teams-content{
+     .teams-content ,
+     .facts-card-container
+     {
         padding:20px 20px ;
     } 
+    .facts-card-container{
+        gap: 20px;
+    }
+    .facts{
+        text-align:  center;
+        margin: 30px 10px 0;
+    }
+    .facts-description{
+        margin-bottom: 20px;
+    }
     .nav-title{
         margin-bottom: 30px;
     }
@@ -212,6 +226,7 @@ font-weight: 600;
     .banner-content{
         margin-bottom: 30px;
     }
+    
 }
 
 /* tablet or medium devices */
@@ -240,5 +255,16 @@ font-weight: 600;
     .teams-content{
         padding: 0 130px;
     }
+    .facts{
+        text-align:  center;
+        margin: 30px 10px 0;
+    }
+    .facts-card-container{
+        gap: 20px;
+    }
+    .facts-description{
+        margin-bottom: 40px;
+    }
+   
 }
     
