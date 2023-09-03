@@ -357,7 +357,13 @@ padding: 38px 200px;
      .sponser{
         margin-top: 80px;
     } 
-    
+    .container{
+        margin:40px 20px 40px ;
+       
+    }
+    .container-description{
+        padding: 20px 10px;
+    }
 }
 
 /* tablet or medium devices */
@@ -400,6 +406,9 @@ padding: 38px 200px;
     }
     .facts-description{
         margin-bottom: 40px;
+    }
+    .container{
+        margin:40px 30px 40px ;
     }
    
 }
