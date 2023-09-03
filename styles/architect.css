@@ -252,6 +252,21 @@ font-weight: 400;
     width: 165px;  
 }
 
+/* foote styles */
+
+.container{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 130px 270px 216px;
+}
+.container-description{
+    color:   #727272;
+text-align: center;
+font-size: 1rem;
+font-weight: 200;
+padding: 38px 200px;
+}
+
 
 
 
