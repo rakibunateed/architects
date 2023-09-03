@@ -132,12 +132,59 @@ margin: 24px 0 32px;
     color:  #131313;
 font-size: 3rem;
 font-weight: 700;
+border-left:5px solid #FF900E;
+padding-left: 20px;
+
 }
 .features-description{
     color:  #727272;
-font-size: 16px;
+font-size: 1rem;
+font-weight: 400;
+margin: 24px 0 30px;
+}
+.features-card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+margin-bottom: 20px;
+}
+.card-title-1{
+    color: #131313;
+font-size: 20px;
+font-weight: 600;
+}
+.card-description{
+    color: #727272;
+font-size: 1rem;
 font-weight: 400;
 }
+.features-img img{
+    height: 90%;
+    margin-left: 100px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+background: #FF900E;
+text-align: center;
+width: 342px;
+padding: 45px 42px;
+position: relative;
+bottom: 100px;
+
+}
+.badge-title{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 700;
+margin: 0;
+}
+.badge-description{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 500;
+}
+
 
 
 
